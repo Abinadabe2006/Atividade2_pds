@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def abinadabe(request):
+    return render(request, "abinadabe.html")
